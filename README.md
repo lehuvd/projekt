@@ -23,7 +23,7 @@ Man kann ein Bild laden, es heller oder dunkler machen, die Sättigung ändern o
 ### Technisch umgesetzt mit
 
 - numpy: Array-Manipulation der Bilddaten
-- matplotlib: Vorschauanzeige
+- matplotlib: Vorschauanzeige, Umrechnung zwischen RGB und HSV
 - tkinter: Dialoge und grafische Oberfläche
 - PIL (Pillow): Laden und Speichern von Bildern
 
@@ -33,7 +33,7 @@ Man kann ein Bild laden, es heller oder dunkler machen, die Sättigung ändern o
 - Abhängigkeiten installieren mit:
 
 ```bash
-pip install numpy matplotlib pillow
+pip install numpy matplotlib pillow tkinter
 ```
 - Oder einfach .exe, der mit PyInstaller kompiliert wurde.
   
@@ -59,4 +59,4 @@ pyinstaller --onefile --windowed ^
 ```bash
 python bsfsh.py
 ```
-Oder durch Doppelklick auf die erzeugte .exe.
+Oder durch Doppelklick auf die erzeugte .exe. (nur Windows)
