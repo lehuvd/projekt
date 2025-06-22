@@ -44,8 +44,8 @@ pyinstaller --onefile --windowed ^
   --hidden-import=numpy ^
   --hidden-import=matplotlib ^
   --hidden-import=matplotlib.colors ^
-  --add-data "pfad\zum\bsfsh.py;." ^
-  "pfad\zum\bsfsh.py"
+  --add-data "pfad\zum\bbp.py;." ^
+  "pfad\zum\bbp.py"
 ```
 ### Erklärungen
 
@@ -57,6 +57,6 @@ pyinstaller --onefile --windowed ^
 ## Ausführen mit:
 
 ```bash
-python bsfsh.py
+python bbp.py
 ```
 Oder durch Doppelklick auf die erzeugte .exe. (nur Windows)
